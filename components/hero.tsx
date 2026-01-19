@@ -15,7 +15,7 @@ export default function Hero() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
-  const roles = ["Full Stack Developer", "Microservices Architect", "Python/Django Developer", "GCP Specialist"];
+  const roles = ["Full-Stack Developer", "Microservices Architect", "Python/Django Developer", "GCP Specialist"];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -55,20 +55,6 @@ export default function Hero() {
               />
             </div>
           </motion.div>
-
-          <motion.span
-            className="absolute -bottom-1 -right-1 text-5xl"
-            initial={{ opacity: 0, scale: 0, rotate: -45 }}
-            animate={{ opacity: 1, scale: 1, rotate: 0 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.2,
-              duration: 0.7,
-            }}
-          >
-            👋
-          </motion.span>
 
           {/* Subtle Glow Background */}
           <div className="absolute -inset-4 bg-teal-500/10 blur-3xl -z-10 rounded-full"></div>
