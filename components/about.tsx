@@ -23,20 +23,19 @@ export default function About() {
         <span className="font-medium">Information Technology</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
+        My favorite part of programming is the
+        problem-solving aspect. I love the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
           React, Next.js, Node.js, and PHP
         </span>
         . I am also proficient with <span className="font-medium">Python (Django), Angular, and GCP</span>. I am always looking to
-        learn new technologies. I am currently working as a{" "}
-        <span className="font-medium">Full Stack Developer</span> at Eighty20 Virtual, Inc.
+        learn new technologies. I am currently not working as of now.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
+        When I'm not coding, I enjoy playing
         video games and watching movies. I am also learning how to play the
         guitar.
       </p>

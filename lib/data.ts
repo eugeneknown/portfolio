@@ -43,7 +43,7 @@ export const experiencesData = [
     description:
       "Developing and maintaining robust web applications since April 2022. Collaborating with cross-functional teams to deliver high-quality software solutions, optimizing backend performance, and ensuring responsive frontend designs.",
     icon: React.createElement(CgWorkAlt),
-    date: "April 2022 - Present",
+    date: "April 2022 - January 2026",
   },
   {
     title: "Bachelor of Science in Information Technology",
@@ -86,7 +86,7 @@ export const projectsData = [
     description:
       "A comprehensive analytics dashboard for managing users, revenue, and system metrics. Features dark mode, real-time data visualization, and role-based access control.",
     tags: ["React", "Next.js", "Tailwind", "Prisma", "PostgreSQL"],
-    imageUrl: "/placeholder-project-1.jpg", 
+    imageUrl: "/placeholder-project-1.jpg",
   },
   {
     title: "E-Commerce Platform",

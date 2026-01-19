@@ -14,7 +14,7 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 export default function Hero() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
-  
+
   const roles = ["Full Stack Developer", "Microservices Architect", "Python/Django Developer", "GCP Specialist"];
   const [index, setIndex] = useState(0);
 
@@ -105,16 +105,16 @@ export default function Hero() {
           >
             I'm a <span className="relative inline-block w-full sm:w-auto text-left">
               <AnimatePresence mode="wait">
-                  <motion.span 
-                    key={index}
-                    className="relative z-10 italic block text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500 font-bold whitespace-normal sm:whitespace-nowrap"
-                    initial={{ y: 20, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    exit={{ y: -20, opacity: 0 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    {roles[index]}
-                  </motion.span>
+                <motion.span
+                  key={index}
+                  className="relative z-10 italic block text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500 font-bold whitespace-normal sm:whitespace-nowrap"
+                  initial={{ y: 20, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  exit={{ y: -20, opacity: 0 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  {roles[index]}
+                </motion.span>
               </AnimatePresence>
               <span className="absolute bottom-1 left-0 w-full h-3 bg-teal-500/20 -z-10 -rotate-1 rounded-sm transition-all duration-300"></span>
             </span>
@@ -122,7 +122,7 @@ export default function Hero() {
         </motion.h1>
 
         <p className="mb-10 px-4 text-lg font-medium !leading-[1.6] sm:text-xl text-slate-400 max-w-[40rem] mx-auto">
-          With <span className="text-white font-bold underline decoration-teal-500/50 underline-offset-4">3+ years</span> of experience building
+          With <span className="text-white font-bold underline decoration-teal-500/50 underline-offset-4">5+ years</span> of experience building
           <span className="italic text-white"> robust & performance-driven</span> web applications using modern technologies.
         </p>
       </motion.div>
